@@ -11,7 +11,7 @@ class Launcher{
         this.launcher = Constraint.create(options);
         World.add(world, this.launcher);
     }
-
+//test
     fly(){
         this.launcher.bodyA = null;
     }
